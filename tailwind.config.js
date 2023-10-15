@@ -12,6 +12,9 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      backgroundImage:{
+        circularLight:'repeating-radial-gradient(rgba(219 39 119) 2px, #ffffff 5px, #ffffff 100px);',
+      }
     },
   },
   plugins: [],

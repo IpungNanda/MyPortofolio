@@ -68,14 +68,16 @@ export default function AboutView({ data }) {
 
             <div className="md:col-span-3 flex flex-col items-start justify-start">
               <h2 className="mb-4 text-lg font-bold uppercase text-pink-600">
-              Biography
-              </h2>    
-            <p className="font-medium my-4">
-              Hello, Im Nanda, an experienced software engineer with 3 months practical experience in software development. I'm passionate about creating efficient and user-friendly digital solutions, seeing software engineering as a means to solve real-world problems and provide seamless user-centric experiences.
-              </p>
+                Biography
+              </h2>
               <p className="font-medium my-4">
-              I focus more on the appearance of the website or Frond End Developer, because I prefer to design a good appearance so that users feel comfortable when using a website that I create.
+                Hello, I&apos;m Nanda, an experienced software engineer with 3 months practical experience in software development. I&apos;m passionate about creating efficient and user-friendly digital solutions, seeing software engineering as a means to solve real-world problems and provide seamless user-centric experiences.
               </p>
+
+              <p className="font-medium my-4">
+                I focus more on the appearance of the website or Frond End Developer, because I prefer to design a good appearance so that users feel comfortable when using a website that I create.
+              </p>
+
             </div>
             <div className="md:col-span-3 relative h-max rounded-2xl border-2 border-solid border-pink-600 bg-white p-4 md:p-8">
               <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-pink-600" />
@@ -115,11 +117,11 @@ export default function AboutView({ data }) {
                 </h2>
               </div>
             </div>
-            
+
           </motion.div>
-          <SkillsView/>
-          <ExperienceView/>
-          <EducationView/>
+          <SkillsView />
+          <ExperienceView />
+          <EducationView />
         </AnimationWrapper>
       </div>
     </main>

@@ -4,7 +4,7 @@ import React from 'react'
 export default function AboutPage() {
   return (
     <div>
-      <AboutView/>
+      <AboutView />
     </div>
   )
 }

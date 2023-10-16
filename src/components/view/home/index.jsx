@@ -63,7 +63,7 @@ export default function HomeViewHome({ data }) {
                 </span>
               </h1>
               <p className="text-black mt-4 mb-8 font-bold">
-              I am a creative Frond End Developer with over 3 months of experience, helping businesses solve their problems through our work.
+                I am a creative Frond End Developer with over 3 months of experience, helping businesses solve their problems through our work.
               </p>
               <motion.div className="flex gap-3 cursor-pointer">
                 {socialIcons.map((item) => (

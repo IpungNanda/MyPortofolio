@@ -10,9 +10,9 @@ import Project1 from "../../../../public/images/portofoliosaya.png"
 const FeaturedProject = ({ type, title, summary, img, link, github }) => {
   return (
     <motion.div
-    initial={{ y: 50, scale: 0.9 }}
-    whileInView={{ y: 0, scale: 1 }}
-    transition={{ duration: 0.5, type: "spring" }}
+      initial={{ y: 50, scale: 0.9 }}
+      whileInView={{ y: 0, scale: 1 }}
+      transition={{ duration: 0.5, type: "spring" }}
     >
       <article className="flex flex-col md:flex-row justify-between items-center w-full rounded-3xl border border-solid border-pink-600 bg-white shadow-pink-600 shadow-2xl p-4 md:p-12">
         <Link href={link} target="_blank" className="w-full md:w-1/2 cursor-pointer overflow-hidden rounded-lg">

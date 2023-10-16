@@ -2,13 +2,12 @@
 
 import { useEffect, useMemo, useRef } from "react";
 import AnimationWrapper from "../../view/animation-wrapper/index";
-import { motion, useInView, useMotionValue, useSpring } from "framer-motion";
 import Image from "next/image";
 import SkillsView from "../skills-view";
 import ExperienceView from "../experience-view";
 import EducationView from "../education-view";
 import ProfilAbout from "../../../../public/images/profil.png"
-
+import { motion, useInView, useMotionValue, useSpring } from "framer-motion";
 function variants() {
   return {
     offscreen: {

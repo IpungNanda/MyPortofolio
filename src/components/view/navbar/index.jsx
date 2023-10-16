@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
+
 import { motion } from "framer-motion";
 
 export default function Navbar() {

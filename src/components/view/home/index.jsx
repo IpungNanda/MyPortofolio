@@ -1,9 +1,9 @@
 "use client";
 
+import { motion } from "framer-motion";
 import { useMemo, useRef } from "react";
 import AnimationWrapper from "../animation-wrapper";
 import Profil from "../../../../public/images/profil.png"
-import { motion } from "framer-motion";
 import {
   FaFacebookSquare,
   FaInstagramSquare,

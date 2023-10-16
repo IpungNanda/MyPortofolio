@@ -1,6 +1,6 @@
 "use client";
 import React from 'react'
-import { motion } from "framer-motion";
+import { motion } from 'framer-motion';
 import AnimationWrapper from "../../view/animation-wrapper/index";
 import { AiOutlineGithub } from "react-icons/ai";
 import Image from "next/image";

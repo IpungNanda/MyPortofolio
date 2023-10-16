@@ -1,6 +1,5 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-
 const Skill = ({ name, x, y }) => {
   return (
     <motion.div className='flex items-center justify-center rounded-full font-semibold bg-pink-600 text-white py-3 px-6 shadow-black border-black cursor-pointer absolute'
